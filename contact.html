@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>contact</title>
+  </head>
+  <body bgcolor="lightblue">
+<font  color="blue">  <h2>Contact me</h2> </font><br> <br>
+
+<strong>send a message</strong> <br>
+<form class="" action="mailto:n0ry@outlook.com" method="post" enctype="text/plain">
+  <label for="name">Enter youe name</label>
+  <br>
+  <input type="text" name="name" value="" id="name">
+<br><br>
+<label for="email">Enter your email</label> <br>
+<input type="email" name="email" value="">
+<br><br>
+<label for="password">Enter your password</label> <br>
+<input type="password" name="password" value="">
+<br><br>
+<label for="title">Select title</label> <br>
+<input list="titles" name="title" id="title"/>
+<datalist id="titles">
+  <option value="about subjects">
+  <option value="about activiyies">
+  <option value="about graduation documents">
+</datalist>
+<br><br>
+<label for="gender">your gender</label><br>
+<input type="radio" name="gender" value="male" >Male <br>
+<input type="radio" name="gender" value="female">Female
+<br><br>
+<label for="bdate">Enter your birthday</label> <br>
+<input type="date" name="bdate" value="bdate">
+<br><br>
+<label for="skills">skills you have</label><br>
+<input type="checkbox" name="html" value="html">HTML<br>
+<input type="checkbox" name="css" value="css">CSS <br>
+<br><br>
+<label for="">Way to contact me</label> <br>
+<select class="" name="contact">
+  <option value="empty">   </option>
+  <option value="phone">phone</option>
+  <option value="email">email</option>
+</select>
+<br><br>
+<label for="favColor">select your favorite color </label>
+<input type="color" name="favColor" value="#12a62d">
+<br><br>
+<label for="uploadCV">you can upload your cv here 😊</label> <br>
+<input type="file" name="uploadCV" value="uploadCV">
+<br><br>
+<label for="notes">Notes</label>
+<br>
+<textarea name="notes" rows="8" cols="80"></textarea>
+<br>
+  <label for="send">Submit</label>
+  <input type="submit" name="send" value="✔" id="send" onclick="alert('the message is sent successfully')">
+</form>
+<a href="index.html">Home page</a>
+  </body>
+</html>
